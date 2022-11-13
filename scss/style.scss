@@ -17,7 +17,7 @@ $white: #fff;
     .row{
       height: 80vh;
     }
-    .col-md-5 {
+    .bg-banner {
       background-color: #00416c;
       padding: 25px 70px;
       border-radius: 0 10px 10px 0;
@@ -224,3 +224,36 @@ header{
 //   button.grow_box:hover::after {
 //     transform: scale(1, 1);
 //   }
+@media screen and (max-width: 1500px) {
+  #image{
+.img3{
+  width: 50%;
+}
+  }
+}
+@media screen and (max-width: 1200px) {
+  #image{
+  .img3{
+   display: none;
+  }
+  #product{
+    height: 75vh !important;
+    .product-crousel {
+      position: static;
+    }
+  }
+}
+  }
+  @media screen and (max-width: 991px) {
+    #image{
+      height: auto;
+    .img3{
+     display: none;
+    }
+    div[class^="img"]{
+      position: static;
+      display: none;
+     }
+    }
+   
+    }
